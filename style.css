@@ -1,23 +1,32 @@
-body {background : #FFBD4F;
+body {
+	background : #FFBD4F;
+
+
 }
 
-h1,h2{
+h1,h2 {
 	text-align: center;
 	color: #453832;
+	font-family:  sans-serif;
 }
- form{
-	
-	text-align: center;
-	
+ form {
+ 	text-align: center;
+	font-family: sans-serif;
 	color: #453832;
 }
 li {
 	list-style: none;
 	text-align: center;
+	font-family: sans-serif;
 }
 
 .done{
 	text-decoration: line-through;
 	color: red;
+
+}
+.BT{
+	text-align: center;
+	color: #453832;
 
 }

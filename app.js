@@ -7,9 +7,9 @@
 $(document).ready();
 
 $("button").click(function() {
-	var recup = $('input').val();
-	var t = $('ul').append('<li><input type="checkbox">'+ recup +'</li>' );
-	console.log(t);
+	var input = $('input').val();
+	var check = $('ul').append('<li><input type="checkbox">'+ input +'</li>' );
+	console.log(check);
 
 });
 
