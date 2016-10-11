@@ -5,21 +5,11 @@ h1,h2{
 	text-align: center;
 	color: #453832;
 }
-input {
-	border-radius: 5px;
+ form{
+	
 	display: block;
-	margin: auto;
-	width: 150px;
-	height: 40px;
-	background: #D0E09D;
+	margin-left: 400px;
+	width: 500px;
+	height: 300px;
 	color: #453832;
-}
-textarea {
-	width: 350px;
-	height: 150px;
-	margin : auto;
-	padding : auto;
-	display: block;
-   
-
 }
