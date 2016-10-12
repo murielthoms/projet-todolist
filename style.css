@@ -28,3 +28,21 @@ li {
 	text-align: center;
 	color: #453832;
 }
+
+#mesNotes {
+	font-size: 20px;
+}
+
+#notesFaites {
+	font-size: 20px;
+}
+#faire {
+	font-size: 20px;
+}
+
+#add {
+	font-size: 20px;
+}
+input {
+	font-size: 30px;
+}
