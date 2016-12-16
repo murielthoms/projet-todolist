@@ -1,13 +1,14 @@
-alert("Bienvenue sur votre to do list");
+// alert("Bienvenue sur votre to do list");
 
 $(document).ready();
 
 $("#add").click(function() {
 	var input = $('input').val();
 	var check = $('ul').append('<li><input type="checkbox">'+ input +'</li>' );
+	$('input').val('');
 });
 
-$( "ul" ).on('click','li',function() {
+$( "ul" ).on('change','li',function() {
 	$( this ).toggleClass('done');  
 
 });
